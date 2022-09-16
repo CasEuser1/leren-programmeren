@@ -1,8 +1,8 @@
-Croissant = 17.0
-prijs1 = 0.39 
-Stokbrood = 2.0
-prijs2 = 2.78 
-korting = 3.0
-kortingprijs = 0.50
-print("Deze aankoop kost in totaal")
-print(f'{Stokbrood * prijs2 + Croissant * prijs1 - korting * kortingprijs} euro')
+
+prijs1 = 39
+prijs2 = 278 
+kortingprijs = 50
+croissant = float(input('Hoeveel croissantjes?'))
+stokbrood = float(input('Hoeveel stokbroden'))
+korting = float(input('Hoeveel kortingsbonnen heeft u?'))
+print(f'{stokbrood * prijs2 + croissant * prijs1 - korting * kortingprijs} cent')
