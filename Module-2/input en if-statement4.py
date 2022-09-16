@@ -1,5 +1,5 @@
 a = 6
-b = 7
+b = 4
 if a > b :
     max  = a
     min = b
