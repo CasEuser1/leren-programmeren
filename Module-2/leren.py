@@ -18,5 +18,4 @@ elif leeftijd >= 18 and leeftijd < 21:
     print(f'Welkom {naam}, je mag naar binnen maar geen sterke drank bestellen.')
 else:
     print(f'Welkom {naam}, je mag naar binnen en sterke drank bestellen.')
-
     
