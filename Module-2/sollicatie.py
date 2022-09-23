@@ -1,7 +1,8 @@
 Naam = input('Wat is uw naam?')
 Gender = input('Wat is uw gender')
 if Gender ==  ('man'):
-   snor = int(input('Hoe breed is je snor in cm?'))
+    snor1 = input('Heeft u een snor?')
+    snor2 = int(input('Hoe breed is je snor in cm?'))
 if Gender == ('vrouw'):
     Kapsel1 = input('Wat voor soort haar heeft u?')
     Kapsel2 = input('Wat voor kleur haar heeft u?')
