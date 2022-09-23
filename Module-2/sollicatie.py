@@ -20,10 +20,8 @@ banaan = input('Houd u van banaan?')
 games = int(input('Hoeveel games speelt u?'))
 familie = int(input('Hoeveel broers en/of zussen heeft u?'))
 
-if Gender == 'man' and  hoed == 'ja' and Rijbewijs == 'ja' and lengte >= 150 and gewicht >= 90 and MBO == 'ja' and Certificaat == 'ja' and Dieren_dressuur >= 4 and jongleren >= 5 and acrobatiek >= 3 and strafblad == 'ja' and banaan == 'nee' and games >= 4 and familie >= 1:
+if (Gender == 'man') or(Gender == 'vrouw' and Kapsel1 == 'krullen' and Kapsel2 == 'rood' and Kapsel3 >= 20) and  hoed == 'ja' and Rijbewijs == 'ja' and lengte >= 150 and gewicht >= 90 and MBO == 'ja' and Certificaat == 'ja' and Dieren_dressuur >= 4 or jongleren >= 5 or acrobatiek >= 3 and strafblad == 'ja' and banaan == 'nee' and games >= 4 and familie >= 1:
     print('Je bent geslaagd')
-elif Gender == 'vrouw' and Kapsel1 == 'krullen' and Kapsel2 == 'rood' and Kapsel3 >= 20 and hoed == 'ja' and Rijbewijs == 'ja' and lengte >= 150 and gewicht >= 90 and MBO == 'ja' and Certificaat == 'ja' and Dieren_dressuur >= 4 and jongleren >= 5 and acrobatiek >= 3 and strafblad == 'ja' and banaan == 'nee' and games >= 4 and familie >= 1:
-    print('Je bent geslaagd.')
 else:
     print('Je hebt de sollicitaie niet goed ingevuld.')
 
