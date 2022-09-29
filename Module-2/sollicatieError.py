@@ -1,7 +1,7 @@
-Naam = input('Wat is uw naam?')
-if Naam == 'Karen':
+Naam = input('Wat is uw naam?').lower()
+if Naam == 'karen':
     raise NameError ('Karens zijn niet welkom, alstublieft ga weg.')
-Gender = input('Wat is uw gender')
+Gender = input('Wat is uw gender?')
 if Gender == ('Anders'):
     raise NameError ('Kies alstublieft tussen man en vrouw')
 if Gender ==  ('man'):
