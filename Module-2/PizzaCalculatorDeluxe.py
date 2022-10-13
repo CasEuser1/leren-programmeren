@@ -4,7 +4,7 @@ try:
     PizzaSmall = int(input('Hoeveel Small pizzas van 25cm en 7$ wilt u?'))
 except ValueError:
     print('U heeft iets verkeerd ingetypt, gebruik alstublieft cijfers en geen letters.')
-    PizzaSmall = 0
+    exit()
 try:
     PizzaMedium = int(input('Hoeveel medium pizzas van 29 cm en 9$ wilt u?'))
 except ValueError:

@@ -29,7 +29,7 @@ try:
     games = int(input('Hoeveel games speelt u?'))
 except ValueError:
     raise NameError ('Noem de hoeveelheid alstublieft in nummers, geef geen titels en niet in letters typen.')
-
+    
 familie = int(input('Hoeveel broers en/of zussen heeft u?'))
 
 if (Gender == 'man') or (Gender == 'vrouw' and Kapsel1 == 'krullen' and Kapsel2 == 'rood' and Kapsel3 >= 20) and  hoed == 'ja' and Rijbewijs == 'ja' and lengte >= 150 and gewicht >= 90 and MBO == 'ja' and Certificaat == 'ja' and Dieren_dressuur >= 4 or jongleren >= 5 or acrobatiek >= 3 and strafblad == 'ja' and banaan == 'nee' and games >= 4 and familie >= 1:
