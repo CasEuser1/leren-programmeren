@@ -4,7 +4,7 @@ import time
 def clear_console():
     os.system('cls')
 
-def printDelay(t: str, d=1):  # function to print with delay
+def printDelay(t: str, d=2):  # function to print with delay
     time.sleep(d)
     print(t)
 
@@ -107,8 +107,8 @@ if TownOrField == 'right':
     printDelay('As you wander around the dungeon looking for the Ghouls that Kelvin spoke of.')
     printDelay('You encounter a Ghoul! Prepare to attack!')
 ######################################################################################################################################
-    GhoulHP = 100
-    PlayerHP = 100
+GhoulHP = 90
+PlayerHP = 100
 while GhoulHP >= 0:
     clear_console()
     EnemyDMG = random.randint(5,10)   
