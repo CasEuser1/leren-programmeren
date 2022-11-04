@@ -13,6 +13,5 @@ for x in range(3):
     robotArm.grab()
     robotArm.moveLeft()
     robotArm.drop()
-
 # Na jouw code wachten tot het sluiten van de window:
 robotArm.wait()
