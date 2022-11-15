@@ -1,9 +1,9 @@
-getal = 50
+nummer1 = 50
 som = 50
 string = '50 '
 
 while som < 1000:
-    getal += 1
-    som += getal
-    string += f'+ {getal}'
+    nummer1 += 1
+    som += nummer1
+    string += f'+ {nummer1}'
     print(f'{string} = {som}')
