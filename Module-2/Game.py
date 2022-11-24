@@ -4,7 +4,7 @@ import time
 def clear_console():
     os.system('cls')
 
-def printDelay(t: str, d=2):  # function to print with delay
+def printDelay(t: str, d=1):  # function to print with delay
     time.sleep(d)
     print(t)
 
@@ -21,7 +21,7 @@ gender = input().lower()
 if gender != 'male' and gender != 'female':
     raise NameError ('Please choose between male or female.')
 ################################################################################################
-Class = print('Please select one of 3 classes, you have the mage, the swordsman/woman or the archer.')
+Class = printDelay('Please select one of 3 classes, you have the mage, the swordsman/woman or the archer.')
 Mage = input('Would you like to choose the mage class?').lower()
 if Mage == 'yes':
     Attacks = ('Cast Fireball, Cast Lightning Strike, Cast Quake.')
@@ -115,7 +115,7 @@ while GhoulHP >= 0:
     print(f'''
     Fight!
                 {naam} = Je HP = {PlayerHP}            Ghoul HP = {GhoulHP}
-    
+  
           Choose your attack
         {Attacks}                           ''')
 

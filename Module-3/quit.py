@@ -4,7 +4,7 @@
 aantal_keer = 0
 vraag = input("?")
 while vraag != "quit":
-    aantal_keer = aantal_keer + 1
+    aantal_keer += 1
     vraag = input("?")
 
 print(f'{aantal_keer} pogingen.')
