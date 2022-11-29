@@ -1,5 +1,7 @@
-for x in range(1,13):
-    print(f'{x} AM')
-if x == 12:
-    for w in range(1,13):
-        print(f'{w} PM')
+dict = {}
+
+dict["item"] = 1
+
+dict.update({"item": 3})
+
+print(dict)
