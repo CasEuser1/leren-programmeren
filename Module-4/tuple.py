@@ -1,4 +1,4 @@
-Dagen = ['Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag','Zondag']
+Dagen = ('Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag','Zondag')
 for x in range(0,5):
     print(Dagen[x])
 print('')

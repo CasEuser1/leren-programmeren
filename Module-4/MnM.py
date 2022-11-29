@@ -9,4 +9,3 @@ for x in range(vraag):
     LegeList.append(KleurMnM)
     RandomKLeur = KleurMnM[KleurVerschil]
 print(LegeList)
-
