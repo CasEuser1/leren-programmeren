@@ -1,6 +1,6 @@
 from random import randint
 
-KleurMnM = ['bruin','oranje', 'blauw','groen']
+KleurMnM = ('bruin','oranje', 'blauw','groen')
 vraag = int(input('Hoeveel M&M wil je hebben?'))
 LegeList = []
 

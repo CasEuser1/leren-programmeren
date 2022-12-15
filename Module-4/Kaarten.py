@@ -11,8 +11,7 @@ for x in (KaartTypes):
 
 random.shuffle(Deck)
 for z in range(1,8):
-    print(f'Kaart {z}: {Deck[z]}')
-    Deck.pop(z)
+    card = Deck.pop(0)
+    print(f'Kaart {z}: {card}')
 
 print(f"aantal kaarten: {len(Deck)} {Deck}")
-

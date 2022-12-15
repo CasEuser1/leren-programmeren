@@ -8,9 +8,6 @@ def printDelay(t: str, d=1):  # function to print with delay
     time.sleep(d)
     print(t)
 
-def clear_console():
-    os.system('cls')
-
 Start = input('Link Start')
 print('Please enter your name.')
 naam = input()
@@ -424,7 +421,7 @@ if Dungeon == 'no':
             if food == 'no':
                 printDelay('Meliodas says"You got lucky, I have never met someone that did not spit out my terrible food."with a grin on his face')
                 printDelay('You laugh and say your goodbyes to Meliodas.')
-    
+
 if TownOrField =='left':
     printDelay('You walk to the forest looking around and enjoying you surroundings')
     printDelay('But you got lost and its getting dark....')

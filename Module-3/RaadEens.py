@@ -35,11 +35,5 @@ while game != 20 or stop == False:
                 if nogeenkeer == 'nee':
                     print(f'{punten} aantal punten')
                     stop = True
-        stoppen = input('Typ quit om vervroegd te stoppen. Als je verder wilt gaan klik enter')
-
-        if stoppen == 'quit':
-            print(f'Je bent met {punten} punten geëindigt en na {ronde} ronde(s) gestopt.')
-            stop = True
-
-        print(punten)    
+   
 print(f'{punten}punten als eindstand')
