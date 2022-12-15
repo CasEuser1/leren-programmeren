@@ -6,6 +6,7 @@ while x == True:
     boodschappen_items = input('')
     print('Hoeveel wil jij ervan hebben?')
     boodschappen_aantal = int(input())
+    
     boodschappenlijst.update({boodschappen_items: boodschappen_aantal})
     if boodschappen_items in boodschappenlijst:
         boodschappenlijst[boodschappen_items] += boodschappen_aantal
