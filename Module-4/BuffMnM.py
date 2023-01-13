@@ -10,7 +10,7 @@ for x in range(vraag):
     if KleurMnM[KleurVerschil] not in ZakMnM:
         ZakMnM.update({RandomKLeur : 1})
     else:
-        x=ZakMnM.get(KleurMnM[KleurVerschil]) +1
+        x = ZakMnM.get(KleurMnM[KleurVerschil]) +1
         ZakMnM.update({KleurMnM[KleurVerschil]:x})
     
 print(ZakMnM)
