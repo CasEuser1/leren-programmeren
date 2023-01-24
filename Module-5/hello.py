@@ -1,5 +1,5 @@
-def hello():
-    return 'Hello from function town'
+def hello(x):
+    for b in range(0,x):
+        print('Hello from function town')
 
-print(hello())
-
+hello(int(input('Hoevaak wil je het printen')))
