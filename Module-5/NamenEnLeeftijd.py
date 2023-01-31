@@ -12,5 +12,4 @@ NamenEnLeeftijd = []
 
 naamleeftijd(NamenEnLeeftijd)
 
-
 print(NamenEnLeeftijd)

@@ -23,7 +23,7 @@ while not Koppelen:
     Koppelen = True
     for x in range(0,len(namen_lijst2)):
         if namen_lijst[x] == namen_lijst2[x]:
-            test = False
+            Koppelen = False
 for x in range(0,len(namen_lijst2)):
     print(f'{namen_lijst[x]} heeft {namen_lijst2[x]} getrokken')
 
