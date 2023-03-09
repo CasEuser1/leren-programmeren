@@ -16,14 +16,13 @@ while meer_namen or aantal_namen < 3:
         namen_lijst.append(namen_input)
         aantal_namen += 1
 
-
 namen_lijst2 = [] + namen_lijst
 while not Koppelen:
     shuffle(namen_lijst)
     Koppelen = True
     for x in range(0,len(namen_lijst2)):
         if namen_lijst[x] == namen_lijst2[x]:
-            Koppelen = False
+           Koppelen = False
 for x in range(0,len(namen_lijst2)):
     print(f'{namen_lijst[x]} heeft {namen_lijst2[x]} getrokken')
 

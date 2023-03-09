@@ -1,6 +1,6 @@
 def fibonacci(x):
     NummerList = [0,1]
-    for i in range(0,x):
+    for Z in range(0,x):
         NummerList.append(NummerList[-1] + NummerList[-2])
     return NummerList
 
