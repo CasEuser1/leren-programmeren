@@ -1,3 +1,4 @@
 Horeca app afmaken
 Misschien CJV 1 als alles lukt
 Game verder met python 
+CJV 16 eventueel
