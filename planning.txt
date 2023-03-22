@@ -1,4 +1,3 @@
-Horeca app afmaken
-Misschien CJV 1 als alles lukt
+De Button opdracht 1 en 2
 Game verder met python 
 CJV 16 eventueel
