@@ -1,4 +1,3 @@
-
 prijs1 = 39
 prijs2 = 278 
 kortingprijs = 50

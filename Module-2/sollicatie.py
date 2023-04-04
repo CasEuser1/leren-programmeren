@@ -32,8 +32,3 @@ if (Gender == 'man') or (Gender == 'vrouw' and Kapsel1 == 'krullen' and Kapsel2 
     print('Je bent geslaagd')
 else:
     print('Je hebt de sollicitaie niet goed ingevuld.')
-
-    
-
-
-

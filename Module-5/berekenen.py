@@ -1,64 +1,64 @@
-gebruiker_nummer = 0
-meer_rondes = True
+def optellen(number1: float, number2: float):
+    print(f"{number1} + {number2} = {float(number1) + float(number2)}")
+    return number1 + number2
 
-def optellen(nummer1: float, nummer2: float):
-    print(f"{nummer1} + {nummer2} = {float(nummer1) + float(nummer2)}")
-    return nummer1 + nummer2
+def aftrekken(number1: float, number2: float):
+    print(f"{number1} - {number2} = {float(number1) - float(number2)}")
+    return number1 -number2
 
-def aftrekken(nummer1: float, nummer2: float):
-    print(f"{nummer1} - {nummer2} = {float(nummer1) - float(nummer2)}")
-    return nummer1 -nummer2
+def keer(number1: float, number2: float):
+    print(f"{number1} * {number2} = {float(number1) * float(number2)}")
+    return number1 * number2
 
-def vermenigvuldigen(nummer1: float, nummer2: float):
-    print(f"{nummer1} * {nummer2} = {float(nummer1) * float(nummer2)}")
-    return nummer1 * nummer2
+def delen(number1: float, number2: float):
+    print(f"{number1} / {number2} = {float(number1) / float(number2)}")
+    return number1 / number2
 
-def delen(nummer1: float, nummer2: float):
-    print(f"{nummer1} / {nummer2} = {float(nummer1) / float(nummer2)}")
-    return nummer1 / nummer2
+nummer = 0
+another_round = True
 
-while meer_rondes:
-    Som = input("""wat wil je doen?
-    |     A) getallen optellen          | 
-    |     B) getallen aftrekken         |        
-    |     C) getallen vermenigvuldigen  |
-    |     D) getallen delen             |
-    |     E) getal ophogen              |
-    |     F) getal verlagen             |
-    |     G) getal verdubbelen          |
-    |     H) getal halveren             |
-         Kies: """).upper()
+while another_round:
+    keuze = input("""wat te doen?
+    |    A) getallen optellen           |
+    |    B) getallen aftrekken          |
+    |    C) getallen vermenigvuldigen   |
+    |    D) getallen delen              |
+    |    E) getal ophogen               |
+    |    F) getal verlagen              |
+    |    G) getal verdubbelen           |
+    |    H) getal halveren              |
+    |    Kies: """).upper()
 
-    if gebruiker_nummer:
+    if nummer:
         n1 = float(input("Welk getal: "))
-        n2 = gebruiker_nummer
-    elif Som == "A" or Som == "B" or Som == "C" or Som == "D":
+        n2 = nummer
+    elif keuze == "A" or keuze == "B" or keuze == "C" or keuze == "D":
         n1 = float(input("Getal 1: "))
         n2 = float(input("Getal 2: "))
     else:
         n1 = float(input("Welk getal: "))
 
-    if Som == "A":
-        gebruiker_nummer += float(optellen(n1, n2))
-    elif Som == "B":
-        gebruiker_nummer += min(n1, n2)
-    elif Som == "C":
-        gebruiker_nummer += vermenigvuldigen(n1, n2)
-    elif Som == "D":
-        gebruiker_nummer += delen(n1, n2)
-    elif Som == "E":
-        gebruiker_nummer += optellen(n1, 1)
-    elif Som == "F":
-        gebruiker_nummer += min(n1, 1)
-    elif Som == "G":
-        gebruiker_nummer += vermenigvuldigen(n1, 2)
-    elif Som == "H":
-        gebruiker_nummer += delen(n1, 2)
+    if keuze == "A":
+        nummer += float(optellen(n1, n2))
+    elif keuze == "B":
+        nummer += aftrekken(n1, n2)
+    elif keuze == "C":
+        nummer += keer(n1, n2)
+    elif keuze == "D":
+        nummer += delen(n1, n2)
+    elif keuze == "E":
+        nummer += optellen(n1, 1)
+    elif keuze == "F":
+        nummer += aftrekken(n1, 1)
+    elif keuze == "G":
+        nummer += keer(n1, 2)
+    elif keuze == "H":
+        nummer += delen(n1, 2)
 
-    meer_rondes = input(f"Do you want to do something with {gebruiker_nummer}? (Y/N): ").upper()
-    if meer_rondes == "N":
-        meer_rondes = False
-    elif meer_rondes == "Y":
-        meer_rondes = True
+    another_round = input(f"Do you want to do something with {nummer}? (Y/N): ").upper()
+    if another_round == "N":
+        another_round = False
+    elif another_round == "Y":
+        another_round = True
     else:
         print("Invalid answer")
