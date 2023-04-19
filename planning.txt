@@ -1,3 +1,2 @@
-Tank opdracht en misschien button 3 beginnen
-Game verder met python
-CJV 16 eventueel.
+Button 3 en meesterproef
+Treasure hunt begin
