@@ -29,9 +29,11 @@ while another_round:
     |    H) getal halveren              |
     |    Kies: """).upper()
 
-    if nummer:
-        n1 = float(input("Welk getal: "))
-        n2 = nummer
+    if nummer != 0:
+        n1 = nummer
+        n2 = float(input("Welk getal: "))
+        nummer = 0
+        
     elif keuze == "A" or keuze == "B" or keuze == "C" or keuze == "D":
         n1 = float(input("Getal 1: "))
         n2 = float(input("Getal 2: "))
